@@ -44,7 +44,7 @@ except:
     print('setuptools module not found.')
     print("Install setuptools if you want to enable 'python setup.py develop'.")
 
-require('numpy', 'scipy', 'nose')
+require('numpy', 'scipy')
 
 
 def configuration(parent_package='', top_path=None, package_name=DISTNAME):
